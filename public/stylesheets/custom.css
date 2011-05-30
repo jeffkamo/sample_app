@@ -1,0 +1,32 @@
+/* Elements */
+body { background:#CFF; }
+header { padding-top: 20px; }
+header img { padding: 1em; background: white; }
+section { margin-top: 1em; font-size: 120%; padding: 20px; background: white; }
+
+a { color: #09C; text-decoration: none; }
+a:hover { color: #069; text-decoration: underline; }
+a:visit { color: #069; }
+
+nav { float: right; background: white; padding: 0 0.7em; white-space: nowrap; }
+nav ul { margin: 0; padding: 0; }
+nav ul li { list-style-type: none; display: inline-block; padding: 0.2em; }
+nav ul li { padding: 1px; font-weight: bold; }
+nav ul li a:visited { color: #09C; }
+
+/* Layout Classes */
+.container { width: 710px; }
+.round { border-radius: 10px; }
+.signup_button { 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	width: 190px;
+	color: white;
+	background: #006400;
+	font-size: 150%;
+	font-weight: bold;
+	padding: 20px;
+}
+.signup_button:hover { color: white; }
