@@ -8,10 +8,13 @@ a { color: #09C; text-decoration: none; }
 a:hover { color: #069; text-decoration: underline; }
 a:visit { color: #069; }
 
+h1 { font-size: 200% }
+
 nav { float: right; background: white; padding: 0 0.7em; white-space: nowrap; }
 nav ul { margin: 0; padding: 0; }
 nav ul li { list-style-type: none; display: inline-block; padding: 0.2em; }
 nav ul li { padding: 1px; font-weight: bold; }
+nav ul li a { padding: 5px; display: block; }
 nav ul li a:visited { color: #09C; }
 
 footer { 
