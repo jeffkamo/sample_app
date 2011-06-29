@@ -23,7 +23,7 @@ describe UsersController do
       assigns(:user).should == @user
     end
     
-    it "should have the right title DERP DERP" do
+    it "should have the right title" do
       get :show, :id => @user
       response.should have_selector('title', :content => " | #{@user.name}" )
     end
